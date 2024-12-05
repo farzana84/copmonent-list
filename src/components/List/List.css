@@ -1,0 +1,35 @@
+.list{
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .button {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  @media (min-width: 768px) {
+    .button {
+      font-size: 1.2em;
+      padding: 15px 30px;
+    }
+  }
+  
