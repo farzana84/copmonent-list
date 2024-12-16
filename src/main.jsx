@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 //import App from './App.jsx'
+import StopWatchBySumit from './components/StopwatchBySumit/StopWatchBySumit'
 import Home from './components/Home/Home'
 import ColorChanger from './components/ColorChanger/ColorChanger'
 import ContactCard from './components/ContactCard/ContactCard'
@@ -19,6 +20,7 @@ import TodoList from './components/Todolist/Todolist'
 
 
 import {
+
 
   createBrowserRouter,
 
@@ -59,6 +61,11 @@ const router = createBrowserRouter([
         path: "/StopWatch",
         element: <StopWatch></StopWatch>,
       },
+      {
+        path: "/StopWatchBySumit",
+        element: <StopWatchBySumit></StopWatchBySumit>,
+      },
+            
       {
         path: "/Todolist",
         element: <TodoList></TodoList>

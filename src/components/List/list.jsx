@@ -10,6 +10,7 @@ const List = () => {
         { name: 'Form', path: '/Form' },
         { name: 'Modal Window', path: '/Modal' },
         { name: 'Stop Watch', path: '/StopWatch' },
+        { name: 'Stop Watch By Sumit', path: '/StopWatchBySumit' },
         { name: 'Todo List', path: '/Todolist' }
     ]
     return (

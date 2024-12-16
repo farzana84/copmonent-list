@@ -10,6 +10,7 @@ import Form from './components/Form'
 import TodoList from './components/Todolist'
 import StopWatch from './components/StopWatch'
 import Counter from './components/counter/Counter'
+import StopWatchBySumit from './components/StopwatchBySumit/StopWatchBySumit'
 const style= {
   body :{
     margin: "0",
@@ -27,6 +28,7 @@ export default function App() {
       <Form/>
       <TodoList></TodoList>
       <StopWatch></StopWatch>
+      <StopWatchBySumit></StopWatchBySumit>
       <Counter></Counter>
     </div>
   )
